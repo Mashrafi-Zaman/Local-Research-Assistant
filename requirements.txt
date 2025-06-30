@@ -1,0 +1,31 @@
+# Core web framework
+streamlit
+
+# Data manipulation and analysis
+pandas
+numpy
+
+# Local LLM integration
+ollama
+
+# PDF processing
+PyPDF2
+pdfplumber
+PyMuPDF
+
+# Machine learning and text processing
+scikit-learn
+nltk
+
+# Data visualization
+plotly
+
+# Additional utilities
+python-dateutil
+pathlib2
+
+# Optional: For better performance and additional features
+# Uncomment if needed
+# sentence-transformers  # For advanced embeddings (requires more resources)
+# transformers          # For additional NLP capabilities
+# torch                 # Required by sentence-transformers if used
