@@ -40,9 +40,9 @@ A powerful RAG-powered research paper analysis tool that runs entirely on your l
    ```
 
 2. **Install and setup Ollama:**
-   ```bash
-   # For Windows: Download from https://ollama.com/download/windows
-   ```
+   
+   For Windows: Download from ([Official Ollama Website](https://ollama.com/download/windows))
+ 
 
 3. **Open and start Ollama server:**
    ```bash
