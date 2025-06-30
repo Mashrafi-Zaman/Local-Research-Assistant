@@ -34,43 +34,34 @@ A powerful RAG-powered research paper analysis tool that runs entirely on your l
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/local-research-assistant.git
-   cd local-research-assistant
-   ```
-
-2. **Install Python dependencies:**
+1. **Install Python dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Install and setup Ollama:**
+2. **Install and setup Ollama:**
    ```bash
-   # Install Ollama (macOS/Linux)
-   curl -fsSL https://ollama.ai/install.sh | sh
-   
-   # For Windows: Download from https://ollama.ai
+   # For Windows: Download from https://ollama.com/download/windows
    ```
 
-4. **Start Ollama server:**
+3. **Open and start Ollama server:**
    ```bash
    ollama serve
    ```
 
-5. **Pull a language model:**
+4. **Pull a language model:**
    ```bash
-   # Recommended models
-   ollama pull gemma3:4b        
+   #Recommended model
+   ollama run gemma3:4b        
    
    ```
 
-6. **Launch the application:**
+5. **Launch the application:**
    ```bash
    streamlit run research_assistant_localllm.py
    ```
 
-7. **Open your browser:** Navigate to `http://localhost:8501`
+6. **Open your browser:** Navigate to `http://localhost:8501`
 
 ## 📖 Usage Guide
 
